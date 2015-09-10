@@ -54,10 +54,6 @@ public class AdvancedJavaCourse extends Course{
         this.courseName = courseName;
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }

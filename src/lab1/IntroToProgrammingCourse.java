@@ -19,10 +19,6 @@ public class IntroToProgrammingCourse extends Course{
         this.setCourseNumber(courseNumber);
     }
 
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
     public final void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0) {
             JOptionPane.showMessageDialog(null,
@@ -30,10 +26,6 @@ public class IntroToProgrammingCourse extends Course{
             System.exit(0);
         }
         this.courseNumber = courseNumber;
-    }
-
-    public double getCredits() {
-        return credits;
     }
 
     public void setCredits(double credits) {
