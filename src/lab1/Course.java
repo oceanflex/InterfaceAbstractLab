@@ -15,4 +15,11 @@ public abstract class Course {
     
     public abstract void setCourseNumber(String courseNumber);
     public abstract void setCredits(double credits);
+    
+    public final double getCredits() {
+        return credits;
+    }
+    public final String getCourseNumber() {
+        return courseNumber;
+    }
 }
