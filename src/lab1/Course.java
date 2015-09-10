@@ -10,5 +10,6 @@ package lab1;
  * @author zsummers
  */
 public abstract class Course {
-    
+    private String courseNumber;
+    private double credits;
 }
