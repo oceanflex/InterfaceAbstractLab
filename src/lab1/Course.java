@@ -12,4 +12,7 @@ package lab1;
 public abstract class Course {
     private String courseNumber;
     private double credits;
+    
+    public abstract void setCourseNumber(String courseNumber);
+    public abstract void setCredits(double credits);
 }
