@@ -26,7 +26,7 @@ public class IntroToProgrammingCourse {
     public final void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0) {
             JOptionPane.showMessageDialog(null,
-                    "Error: courseNumber cannot be null of empty string");
+                    "Error: courseNumber cannot be null or empty string");
             System.exit(0);
         }
         this.courseNumber = courseNumber;
@@ -52,7 +52,7 @@ public class IntroToProgrammingCourse {
     public final void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,
-                    "Error: courseName cannot be null of empty string");
+                    "Error: courseName cannot be null or empty string");
             System.exit(0);
         }
         this.courseName = courseName;
