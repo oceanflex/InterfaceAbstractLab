@@ -10,7 +10,7 @@ package lab1;
  * @author zsummers
  */
 public abstract class Course {
-    private String courseName = "hi";
+    private String courseName;
     private String courseNumber;
     private double credits;
     
