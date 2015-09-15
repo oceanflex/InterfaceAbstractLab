@@ -11,9 +11,9 @@ package lab2;
  */
 public interface HasClass {
     public abstract String getCourseNumber();
-    public abstract void setCourseNumber();
+    public abstract void setCourseNumber(String courseNumber);
     public abstract String getCourseName();
-    public abstract void setCourseName();
+    public abstract void setCourseName(String courseName);
     public abstract double getCredits();
-    public abstract void setCredits();
+    public abstract void setCredits(double Credits);
 }
