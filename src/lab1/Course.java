@@ -10,7 +10,7 @@ package lab1;
  * @author zsummers
  */
 public abstract class Course {
-    private String courseName;
+    private String courseName = "hi";
     private String courseNumber;
     private double credits;
     
@@ -19,15 +19,9 @@ public abstract class Course {
     public abstract void setCourseName(String courseName);
 
     
-    public final double getCredits() {
-        return credits;
-    }
-    public final String getCourseNumber() {
-        return courseNumber;
-    }
-    public String getCourseName() {
-        return courseName;
-    }
+    public abstract double getCredits();
+    public abstract String getCourseNumber();
+    public abstract String getCourseName();
 
 
 }

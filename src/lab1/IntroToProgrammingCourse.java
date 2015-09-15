@@ -27,6 +27,9 @@ public class IntroToProgrammingCourse extends Course{
         }
         this.courseNumber = courseNumber;
     }
+    public String getCourseNumber(){
+        return this.courseNumber;
+    }
 
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {
@@ -36,6 +39,9 @@ public class IntroToProgrammingCourse extends Course{
         }
         this.credits = credits;
     }
+    public double getCredits(){
+        return this.credits;
+    }
 
     public final void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
@@ -44,6 +50,9 @@ public class IntroToProgrammingCourse extends Course{
             System.exit(0);
         }
         this.courseName = courseName;
+    }
+    public String getCourseName() {
+        return courseName;
     }
 
     

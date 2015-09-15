@@ -20,8 +20,14 @@ public class IntroJavaCourse extends Course{
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }
+    public String getCourseNumber(){
+        return this.courseNumber;
+    }
     public void setCourseName(String courseName){
         this.courseName = courseName;
+    }
+    public String getCourseName() {
+        return courseName;
     }
 
     public String getPrerequisites() {
@@ -39,6 +45,9 @@ public class IntroJavaCourse extends Course{
             System.exit(0);
         }
         this.setCredits(credits);
+    }
+    public double getCredits(){
+        return this.credits;
     }
 
 }
