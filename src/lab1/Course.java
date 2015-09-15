@@ -10,8 +10,14 @@ package lab1;
  * @author zsummers
  */
 public abstract class Course {
+    private String courseName;
     private String courseNumber;
     private double credits;
+    
+    public Course(String courseName, String courseNumber){
+        this.courseNumber = courseNumber;
+        this.courseName = courseName;
+    }
     
     public abstract void setCourseNumber(String courseNumber);
     public abstract void setCredits(double credits);
