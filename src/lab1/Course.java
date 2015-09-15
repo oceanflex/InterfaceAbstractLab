@@ -14,13 +14,10 @@ public abstract class Course {
     private String courseNumber;
     private double credits;
     
-    public Course(String courseName, String courseNumber){
-        this.courseNumber = courseNumber;
-        this.courseName = courseName;
-    }
-    
     public abstract void setCourseNumber(String courseNumber);
     public abstract void setCredits(double credits);
+    public abstract void setCourseName(String courseName);
+
     
     public final double getCredits() {
         return credits;
@@ -28,4 +25,6 @@ public abstract class Course {
     public final String getCourseNumber() {
         return courseNumber;
     }
+
+
 }
