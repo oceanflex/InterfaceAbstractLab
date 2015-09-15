@@ -37,10 +37,6 @@ public class IntroToProgrammingCourse extends Course{
         this.credits = credits;
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
-
     public final void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,

@@ -46,10 +46,6 @@ public class AdvancedJavaCourse extends Course{
         this.setCredits(credits);
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
-
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }

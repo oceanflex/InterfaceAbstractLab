@@ -25,6 +25,9 @@ public abstract class Course {
     public final String getCourseNumber() {
         return courseNumber;
     }
+    public String getCourseName() {
+        return courseName;
+    }
 
 
 }
