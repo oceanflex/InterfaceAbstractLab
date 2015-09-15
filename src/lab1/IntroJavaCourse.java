@@ -20,6 +20,9 @@ public class IntroJavaCourse extends Course{
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
     }
+    public void setCourseName(String courseName){
+        this.courseName = courseName;
+    }
 
     public String getPrerequisites() {
         return prerequisites;
